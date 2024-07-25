@@ -1,12 +1,6 @@
-= perftest - performance of various shell and scripting languages
+= lt396add: Add-on files for Learning Tree LT396
 
-Patterned after a shorter comparison in
+Extra files for students of 
 https://learningtree.com/396[Learning Tree Course 396, Unix Tools & Utilities].
 
-== Pre-requisites
-
-You need to install a Java SDK ("JDK"). The current release is Java 22, but
-any release of JDK 11 or later should suffice.
-
-Using your system's package manager, install as many Awk implementations as
-you can find - gawk hawk mawk nawk are the most likely ones.
+The perftest has moved into its own repo at https://github.com/IanDarwin/perftest[].
