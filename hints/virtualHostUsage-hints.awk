@@ -6,18 +6,20 @@
 # virtual host, display results in kilobytes
 
 BEGIN {
-	# OPTIONAL: Check that two cmd-line args are present (hint: ARGC)
+	print "Argc is ", ARGC
+	# OPTIONAL: Check that one cmd-line arg is present (hint: ARGC)
 	# If NOT, print an error message and exit with a non-zero return
-    }
 }
 
 {
 # Process each line into one large associative array
+# See slide "Looping on associative array" around page 8-27.
 # Hint: hostname is field 6, and byte count for this access is field 11.
 }
 
 END {
-	# Iterate through the associative array, printing each bytecount (convert to KB or MB) {
-		printf "%-30s %7.2f K\n", name, byteCount[name] / 1024 | "sort"
-	}
+	# Iterate through the associative array, printing each bytecount (convert to KB or MB)
+	# for (??? ?? ???) {
+	# Use printf "%-30s %7.2f K\n", name, byteCount[name]  | "sort"
+	# }
 }
